@@ -1,11 +1,6 @@
-// Bibliotecas necessárias para o funcionamento do programa
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
-#include "hardware/adc.h"
-#include "hardware/i2c.h"
-#include "lib/ssd1306.h"
-#include "lib/font.h"
 
 // Definição dos leds
 #define LEDr 13
@@ -20,9 +15,8 @@
 // Definição do push button
 #define BotaoA 5 
 
-int main()
-{
-    stdio_init_all();
-
-    return 0;
+void inicializar(){
+    gpio_init(BotaoA);
+    gpio_set_dir(BotaoA, GPIO_IN);
+    gpio_pull_up(BotaoA);
 }
