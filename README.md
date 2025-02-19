@@ -28,7 +28,7 @@ A simulação é realizada no hardware real, com o display SSD1306 exibindo o qu
 ## Vídeos do Projeto
 
 - **Link do Vídeo do funcionamento do display e movimento do quadrado**: 
-  [Link para o vídeo](https://drive.google.com/file/d/1vAcuPnkz7i4o3OVd8iWc0m8lCez1a12Z/view?usp=drivesdk)
+  [Link para o vídeo](https://drive.google.com/file/d/1yXkapn-rLAB9pVwMj8mkMFT59o-fmqL5/view?usp=drivesdk)
 
 ## Configuração do Ambiente de Desenvolvimento
 
