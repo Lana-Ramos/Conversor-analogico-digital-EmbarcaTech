@@ -31,6 +31,6 @@ pico_set_program_name(Conversor-analogico-digital-EmbarcaTech "Conversor-analogi
 pico_set_program_version(Conversor-analogico-digital-EmbarcaTech "0.1")
 pico_enable_stdio_uart(Conversor-analogico-digital-EmbarcaTech 0)
 pico_enable_stdio_usb(Conversor-analogico-digital-EmbarcaTech 1)
-target_link_libraries(Conversor-analogico-digital-EmbarcaTech pico_stdlib hardware_i2c hardware_adc)
+target_link_libraries(Conversor-analogico-digital-EmbarcaTech pico_stdlib hardware_i2c hardware_adc hardware_pwm)
 target_include_directories(Conversor-analogico-digital-EmbarcaTech PRIVATE   ${CMAKE_CURRENT_LIST_DIR})
 pico_add_extra_outputs(Conversor-analogico-digital-EmbarcaTech)
